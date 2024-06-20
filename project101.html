@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: brown;
+      }
+      .div {
+        width: 350px;
+        height: 350px;
+        margin-top: 10px;
+      }
+      .Positionone {
+        background-color: blue;
+        position: absolute;
+        right: 0px;
+      }
+      .item1{
+        background-color: wheat;
+        position: relative;
+        left: 7rem;
+      }
+      /* .Positionthree {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        position: absolute;
+        right: 0;
+      } */
+      main {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: rgb(233, 160, 26);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+      }
+      .navbar {
+        background-color: black;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+      }
+      .Logo a {
+        color: wheat;
+        font-size: 70px;
+      }
+      ul {
+        display: flex;
+      }
+      li {
+        list-style: none;
+        display: inline-block;
+      }
+      li a {
+        color: wheat;
+        font-size: 20px;
+        margin-right: 25px;
+      }
+      li :hover {
+        background-color: aliceblue;
+      }
+      button :hover {
+        background-color: blue;
+      }
+      button {
+        background-color: wheat;
+        margin-left: 10px;
+        border-radius: 12px;
+        width: 98px;
+      }
+      button a {
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: 15px;
+      }
+    </style>
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">FLOURISH</div>
+      <ul>
+        <li><a href="home">Home</a></li>
+        <li><a href="services">services</a></li>
+        <li><a href="contact">Contact</a></li>
+      </ul>
+      <div class="btns">
+        <button>+2349121201552</button>
+      </div>
+    </div>
+    <div>
+      <div class="flexbox-container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+      </div>
+    </div>
+  </body>
+</html>
